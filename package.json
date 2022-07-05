@@ -1,0 +1,23 @@
+{
+  "name": "graphql-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-client": "npm install --prefix client",
+    "install-server": "npm install --prefix server",
+    "install": "npm run install-server && npm run install-client",
+    "client": "npm start --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SumanIslam/graphql-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SumanIslam/graphql-auth/issues"
+  },
+  "homepage": "https://github.com/SumanIslam/graphql-auth#readme"
+}
